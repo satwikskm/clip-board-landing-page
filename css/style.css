@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:wght@300&family=Source+Sans+Pro:wght@200&display=swap');
+
+*{
+    background: white;
+    margin: 0px 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    
+    font-family: 'Rubik', sans-serif;
+   
+    font-weight: 400,600;
+}
+
+img{
+    overflow: hidden;
+}
+
+.header{
+    background: url(../images/bg-header-desktop.png) no-repeat center/cover;
+    height: 50vh;  
+    color: grey; 
+    text-align: center;
+}
+
+.header svg{
+    background-color: transparent;
+    margin-top: 10%;
+    
+}
+
+.header h1{
+    background-color: transparent;
+    margin-top: 0%;
+    
+    color: black;
+    
+
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    background: none;
+    flex-direction: row;
+    gap:30px;
+    margin-top: 20px;
+    
+}
+
+.btn-1{
+    
+    background:hsl(171, 66%, 44%);
+    height: 50px;
+    padding: 15px 10px;
+    border-radius: 30px;
+    color:white;
+}
+.btn-2{
+    background:hsl(233, 100%, 69%);
+    height: 50px;
+    padding: 15px 10px;
+    border-radius: 30px;
+    color:white;
+}
+
+.container-1{
+    margin: 10% 10%;
+    text-align: center;
+    
+}
+
+.container-1 p{
+    margin-top: 10px;
+    color: grey;
+}
+
+.container-1 img{
+    margin-top: 10%;
+    
+}
+
+.container-2{
+    display: flex;
+}
+
+.container-2 img{
+    width: 80%;
+}
+
+.text{
+    margin: 20px 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.text p{
+    margin-top: 5px;
+    color: grey;
+}
+
+
+.container-3 {
+    margin-top: 10px;
+    color: grey;
+    margin-left:40%;
+    
+    
+}
+
+
+.container-3 h1{
+    margin-top: 10px;
+    color:black;
+    
+
+}
+
+.container-3 p{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.container-4{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    
+    margin-right: 20px;
+    text-align: center;
+    gap: 10px;
+
+}
+
+.container-4 h1{
+    margin-top: 20px;
+}
+.container-4 p{
+    margin-top: 10%;
+    color: grey;
+}
+.icn-1 h1{
+    margin-top: 10px;
+}
+.icn-1 p{
+    margin-top: 40px;
+}
+
+.brand{
+    display: flex;
+    gap:10%;
+    margin-top: 15%;
+    margin-left: 15%;
+    margin-right: 30px;
+}
+.brand img{
+    width: 8%;
+}
+
+.end{
+    background: none;
+    margin-top: 10%;
+}
+
+.down-bar{
+    display: flex;
+    text-align: center;
+   justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.down-bar li{
+    list-style: none;  
+    display: flex;
+    
+
+}
+
+.social {
+   
+    display: flex;
+    justify-content: space-between;
+    gap:50px;
+   
+    
+}
+.faq{
+    margin-top: 20px;
+    gap:10px;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    max-height: 5vh;
+}
+
+.faq>* {
+    flex: 1 1 40%;
+}
+
+
+@media(max-width:500px){
+    .body{
+        font-size: 30px;
+    }
+    .btn{
+        flex-direction: column;
+        margin-top: 0px;
+        padding-top: 0px;
+        width: 70%;
+        margin-left: 15%;
+    }
+    .container-1 img{
+        width: 100%;
+    }
+
+    .container-1 p{
+        margin-top: 0px;
+    }
+    .container-1{
+        padding-top: 100px;
+    }
+
+    .container-2 {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .container-3{
+        margin-left: 0px;
+        margin-right: 0px;
+       text-align: center;
+    }
+    .container-4{
+        flex-direction: column;
+    }
+    .brand{
+        flex-direction: column;
+        gap:50px;
+        
+    }
+    .brand img{
+        width: 50%;
+        align-items: center;
+        
+    }
+    .down-bar{
+        flex-direction: column;
+        
+    }
+    .down-bar li{
+        list-style: none;  
+        
+        
+    
+    }
+    .faq{
+        flex-wrap:wrap;
+        margin-left: 40%;
+    }
+    .faq>* {
+        flex: 1  100%;
+    }
+    .social{
+        margin-top: 30%;
+    }
+    
+}
