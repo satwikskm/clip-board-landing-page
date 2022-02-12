@@ -201,6 +201,9 @@ img{
 .faq>* {
     flex: 1 1 40%;
 }
+footer{
+    margin-top: 50px;
+}
 
 
 @media(max-width:500px){
